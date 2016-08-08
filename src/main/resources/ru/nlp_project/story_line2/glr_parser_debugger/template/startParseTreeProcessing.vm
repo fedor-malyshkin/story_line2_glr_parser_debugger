@@ -1,0 +1,7 @@
+<div class="trees">
+	<span><b><u>Извлечены деревья анализа</u></b></span>
+	<span class="duration"> (С начала анализа $duration ms) </span>
+	<a class="showHide" href="#">Показать/скрыть</a>
+	<div class="data">
+	<table>
+	<tr><th>Tree</th><th>Validated?</th><th>Cause</th></tr>

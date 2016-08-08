@@ -1,0 +1,22 @@
+			<div class="tokens">
+				<span><b><u>$cause</u></b></span>
+				<span class="duration"> (С начала анализа $duration ms) </span>
+				<a class="showHide" href="#">Показать/скрыть</a>
+				<div class="data" style="display:none">
+				#foreach ($t in $tokens)
+					<span class="token">$t.value
+					<div style="display:none">
+					<div>$t.type [$t.getKwName(), $t.from, $t.length]</div>
+					#if ($t.getLexemesListCopy(true).size() >0)
+					<table>
+						<tr><th>Value</th><th>Lemm</th><th>POS</th><th>Grammemes</th><th>exact</th></tr>
+					#foreach ($l in $t.getLexemesListCopy(true))
+						<tr><td>$l.value</td><td>$l.lemm</td><td>$l.POS</td><td>$l.grammemes</td><td>$l.exactMatch</td></tr>
+					#end	
+					</table>
+					#end					
+					</div>
+					</span>
+				#end
+				</div> <!--<div class="data">-->
+			</div> <!--<div class="tokens">-->

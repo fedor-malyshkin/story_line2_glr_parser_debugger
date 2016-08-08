@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	</head>
+	<body>
+<script type="text/javascript">
+$jquery
+</script>
+<script type="text/javascript">
+$jquery_ui
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+$(".showHide").click(function(){
+	parent = $(this).parent();
+	$(parent).find("div.data").first().toggle();
+});
+
+$( document ).tooltip({
+  items: "span.token",
+  content: function() {
+	var element = $( this );
+	//return element.text();
+	return element.find("div").html();
+  }
+});
+
+});
+</script>
+	

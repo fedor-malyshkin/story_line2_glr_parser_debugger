@@ -1,0 +1,4 @@
+			<div class="directives">
+				<span><b>Грамматика имеет следующие директивы:</b></span>
+				<span>$directives</span>
+			</div> <!--<div class="directives">-->

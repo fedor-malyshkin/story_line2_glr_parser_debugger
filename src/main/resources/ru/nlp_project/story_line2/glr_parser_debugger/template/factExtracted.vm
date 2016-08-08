@@ -1,0 +1,3 @@
+#foreach ($f in $factSet)
+	<tr><td>$f.value.name</td><td>$f.value.type</td><td>$f.value.value</td><td>$f.value.from</td><td>$f.value.length</td></tr>
+#end

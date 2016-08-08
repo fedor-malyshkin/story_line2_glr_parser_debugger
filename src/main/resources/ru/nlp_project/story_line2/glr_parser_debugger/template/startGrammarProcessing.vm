@@ -1,0 +1,14 @@
+		<div class="grammar">
+			<span><b><u>Обработка грамматики (корень: $grammar.userRootSymbol {$grammar.rootSymbol} )</u></b></span>
+			<span class="duration"> (С начала анализа $duration ms) </span>			
+			<a class="showHide" href="#">Показать/скрыть</a>
+					<div class="data" style="display:none">
+					<ol>
+					#foreach ($p in $projections)
+					<li>$p</li>	
+					#end
+					</ol>	
+					</div> <!--<div class="data" style="display:none">-->
+		</div>	<!--<div class="grammar">-->
+
+					

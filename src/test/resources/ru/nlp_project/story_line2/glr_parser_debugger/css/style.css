@@ -1,0 +1,116 @@
+body {
+font-size: 11pt;
+font-family:  sans-serif;
+background: #1f1f1f ;
+color: #909090;
+}
+
+strong {
+color: #cfcfcf;
+}
+
+h1,h2,h3,h4 {
+color: #eaeaea;
+}
+
+.showHide
+{
+font-size: 8pt;
+font-family:  sans-serif;
+font-style: italic;
+color: white;
+}
+
+.sentence  {
+border: solid 1px #ffffff;
+}
+
+.sentenceText
+{
+color: #eeeeee;
+font-size: 12pt;
+font-family:  sans-serif;
+}
+
+.usedArticles
+{
+font-size: 10pt;
+font-family:  sans-serif;
+font-style: italic;
+color: blue;
+}
+
+.sentence > span
+{
+color: #eeeeee;
+}
+
+/*
+Сдвинем дочерние узлы для наглядности их дочернего статуса
+*/
+.grammar, .tokens, .facts, .keywords, .directives, .entrances, .keywords, .trees
+{
+padding-left: 1em;
+}
+
+.article > span
+{
+color: blue;
+}
+
+.facts > span
+{
+color: green;
+}
+
+.facts table 
+{
+border: 1px solid;
+border-spacing: 0px;
+}
+
+.facts td 
+{
+border: 1px solid;
+border-spacing: 0px;
+}
+
+.trees table 
+{
+border: 1px solid;
+border-spacing: 0px;
+}
+
+.trees td 
+{
+border: 1px solid;
+border-spacing: 0px;
+}
+
+.keywords table 
+{
+border: 1px solid;
+border-spacing: 0px;
+}
+
+.keywords td 
+{
+border: 1px solid;
+border-spacing: 0px;
+}
+
+.grammar
+{
+color: yellow;
+}
+
+
+.exception  {
+background: #7f1f1f;
+border: solid 1px #ffffff;
+}
+
+.footer, .duration  {
+font-size: 8pt;
+color: gray;
+}

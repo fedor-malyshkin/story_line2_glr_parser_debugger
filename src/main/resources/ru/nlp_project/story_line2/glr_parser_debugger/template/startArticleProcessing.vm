@@ -1,0 +1,5 @@
+		<div class="article">
+			<span><b><u>Обработка статьи '$article'</u></b></span>
+			<span class="duration"> (С начала анализа $duration ms) </span>
+			<a class="showHide" href="#">Показать/скрыть</a>
+					<div class="data">

@@ -1,0 +1,8 @@
+			<div class="keywords">
+			#if ($plain)
+				<span><b>Грамматика имеет следующие ключевые слова (plain):</b></span>
+			#else
+				<span><b>Грамматика имеет следующие ключевые слова (grammar):</b></span>
+			#end
+				<span>$keywords</span>
+			</div> <!--<div class="keywords">-->

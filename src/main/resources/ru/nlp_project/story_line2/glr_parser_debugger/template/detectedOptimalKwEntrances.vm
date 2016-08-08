@@ -1,0 +1,13 @@
+			<div class="keywords">
+				<span><b><u>Определены вхождения ключевых слов</u></b></span>
+				<span class="duration"> (С начала анализа $duration ms) </span>				
+				<a class="showHide" href="#">Показать/скрыть</a>
+				<div class="data" style="display:none">
+					<table>
+						<tr><th>Class</th><th>Value</th><th>From</th><th>Length</th></tr>
+					#foreach ($e in $entrances)
+						<tr><td>$e.className</td><td>$e.value</td><td>$e.from</td><td>$e.length</td></tr>
+					#end	
+					</table>
+				</div> <!--<div class="data">-->
+			</div> <!--<div class="keywords">-->
