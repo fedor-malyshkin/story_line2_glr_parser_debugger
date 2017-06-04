@@ -8,8 +8,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.stream.Collectors;
 import java.util.Properties;
+import java.util.stream.Collectors;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang.StringEscapeUtils;
@@ -17,9 +17,9 @@ import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.VelocityEngine;
 
 import ru.nlp_project.story_line2.glr_parser.GLRParser.Sentence;
-import ru.nlp_project.story_line2.glr_parser.GrammarManager.GrammarDirectiveTypes;
-import ru.nlp_project.story_line2.glr_parser.Interpreter.Fact;
-import ru.nlp_project.story_line2.glr_parser.Interpreter.FactField;
+import ru.nlp_project.story_line2.glr_parser.GrammarManagerImpl.GrammarDirectiveTypes;
+import ru.nlp_project.story_line2.glr_parser.InterpreterImpl.Fact;
+import ru.nlp_project.story_line2.glr_parser.InterpreterImpl.FactField;
 import ru.nlp_project.story_line2.glr_parser.ParseTreeNode;
 import ru.nlp_project.story_line2.glr_parser.ParseTreeValidator.ParseTreeValidationException;
 import ru.nlp_project.story_line2.glr_parser.SentenceProcessingContext;

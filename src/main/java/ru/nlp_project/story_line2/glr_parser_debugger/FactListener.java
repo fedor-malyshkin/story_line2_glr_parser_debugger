@@ -1,7 +1,7 @@
 package ru.nlp_project.story_line2.glr_parser_debugger;
 
 import ru.nlp_project.story_line2.glr_parser.IFactListener;
-import ru.nlp_project.story_line2.glr_parser.Interpreter.Fact;
+import ru.nlp_project.story_line2.glr_parser.InterpreterImpl.Fact;
 import ru.nlp_project.story_line2.glr_parser.SentenceProcessingContext;
 
 class FactListener implements IFactListener {
